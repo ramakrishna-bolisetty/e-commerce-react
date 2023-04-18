@@ -1,0 +1,41 @@
+.book {
+    width: 19%;
+    border: 2px solid rgb(22, 19, 19);
+    margin: 0 5px 20px;
+    background-color: rgb(200, 197, 197);
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-title {
+height: 40px;
+font-size: 15px;
+}
+.book-img {
+    width: 100%;
+    background-size: cover;
+}
+
+.buy-now {
+    width: 100%;
+    background: none;
+    border: none;
+    background-color: rgb(239, 96, 0);
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.description {
+    padding: 10px;
+}
+
+.description p,
+h2 {
+    margin-bottom: 10px;
+}
