@@ -28,7 +28,7 @@ const bookDetailSlice = createSlice({
         },
         getBookDetailError: (state, action) => {
             state.loading = false;
-            state.error = action.payload.error.message || 'Something went wrong';
+            state.error = action.payload.error.message ;
         }
     }
 });
