@@ -12,7 +12,7 @@
 }
 
 
-.nav-bar li + li:before{
+.nav-bar li + li:before {
     content: " | ";
     float: right;
     padding: 10px;
