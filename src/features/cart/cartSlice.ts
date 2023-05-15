@@ -21,9 +21,9 @@ const cartSlice = createSlice({
     initialState,
     reducers: {
         addToCart: (state, action) => {
-            console.log("action.payload ", action.payload);
+            console.log('action.payload ', action.payload);
             let bookFound = state.cartItems.find((item) => item.title === action.payload.title);
-            console.log("Index is", bookFound);
+            console.log('Index is', bookFound);
             if (bookFound) {
                 bookFound.quantity += 1;
             } else {
@@ -31,7 +31,7 @@ const cartSlice = createSlice({
             }
         },
         removeBook: (state, action) => {
-            console.log("action.payload ", action.payload);
+            console.log('action.payload ', action.payload);
             let bookFound = state.cartItems.find((item) => item.title === action.payload.title)!;
             if (bookFound?.quantity === 1) {
                 state.cartItems = state.cartItems.filter(book => {

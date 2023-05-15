@@ -1,21 +1,21 @@
-.nav-bar{
+.nav-bar {
     background-color: rgb(196, 195, 195);
     list-style: none;
     overflow: hidden;
     padding: 0 20px;
 }
 
-.nav-bar p{
+.nav-bar p {
     display: inline;
     float: left;
     padding: 10px;
 }
 
-li{
+li {
     display: inline;
 }
 
-li a{
+li a {
     float: right;
     text-decoration: none;
     text-align: center;
@@ -23,20 +23,20 @@ li a{
     padding: 10px;
 }
 
-.nav-bar li + li:before{
+.nav-bar li+li:before {
     content: " | ";
     float: right;
     padding: 10px;
 }
 
-li a.active{
+li a.active {
     color: black;
     font-weight: bold;
 }
 
-.cartCount{
+.cartCount {
     background-color: violet;
-    padding:0px 5px;
+    padding: 0px 5px;
     border-radius: 5px;
     color: white;
 }

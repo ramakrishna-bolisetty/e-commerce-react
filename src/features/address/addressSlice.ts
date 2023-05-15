@@ -29,7 +29,7 @@ const addressSlice = createSlice({
     initialState,
     reducers: {
         saveAddress: (state, action) => {
-            console.log("By the dispatch ", action.payload);
+            console.log('By the dispatch ', action.payload);
             state.fName = action.payload.fName;
             state.lName = action.payload.lName;
             state.locality = action.payload.locality;
