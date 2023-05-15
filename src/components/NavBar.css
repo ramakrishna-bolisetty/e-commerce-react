@@ -11,19 +11,8 @@
     padding: 10px;
 }
 
-li {
-    display: inline;
-}
 
-li a {
-    float: right;
-    text-decoration: none;
-    text-align: center;
-    color: black;
-    padding: 10px;
-}
-
-.nav-bar li+li:before {
+.nav-bar li + li:before{
     content: " | ";
     float: right;
     padding: 10px;
@@ -39,4 +28,16 @@ li a.active {
     padding: 0px 5px;
     border-radius: 5px;
     color: white;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 10px;
 }
