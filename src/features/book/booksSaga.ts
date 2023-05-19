@@ -2,7 +2,7 @@ import { takeLatest, put } from 'redux-saga/effects';
 import { BookType, getBooksError, getBooksRequest, getBooksSuccess } from './bookSlice';
 import axios from 'axios';
 import { AxiosResponse } from "axios";
-import {BOOKURL} from '../../../config';
+import {BOOKURL} from '../../config';
 
 function* booksSaga() {
     try {
